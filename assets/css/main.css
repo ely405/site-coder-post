@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: helvetica, arial, sans-serif;
+    outline: none;
+}
+
+body{
+    text-align: center;
+}
+
+header #img-laboratoria:hover{
+    cursor: pointer; 
+}
+
+#post-textarea{
+    border: #F9A30B 3px solid;
+    width: 400px;
+    height: 150px;
+    resize: none;
+}
+
+#post-textarea:hover{
+    background-color: #FBD287;
+}
+
+#post-textarea:active{
+    background-color: #FFF;
+}
+
+div #span-error{
+    color: #DC0C0C;
+}
+
+.print-button button{
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 7px 15px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #F9A30B;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: darkorange 0 10px;
+}
+
+.print-button button:hover{
+    background-color: darkorange;
+}
+
+.print-button button:active{
+    background-color: orange;
+    box-shadow: 0 5px darkorange;
+    transform: translateY(5px);
+}
+
+hr {
+    border-style: solid;
+    border-width: 2px;
+    color: darkorange;
+}
+
+div#contains-all-post{
+    text-align: -webkit-center;
+}
+
+div#contains-all-post div{
+    display: none;
+    margin: 10px;
+    padding: 0 20px;
+    width: 300px;
+    border: 2px solid darkorange; 
+    background-color: #EDEDED;
+}
